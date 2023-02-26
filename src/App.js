@@ -56,7 +56,7 @@ class App extends Component {
 
   addEntries = (e) => {
     e.preventDefault();
-    fetch('http://localhost:777/image', {
+    fetch('https://blooming-mountain-52947.herokuapp.com/image', {
       method: 'PUT',
       headers: { 'Content-type': 'application/json; charset=UTF-8', },
       body: JSON.stringify({
@@ -134,7 +134,7 @@ class App extends Component {
     this.setState({ imageURL: this.state.input });
     //clarifai
     e.preventDefault();
-    fetch('http://localhost:777/faceDetect', {
+    fetch('https://blooming-mountain-52947.herokuapp.com/faceDetect', {
       method: 'POST',
       headers: { 'Content-type': 'application/json; charset=UTF-8', },
       body: JSON.stringify({

@@ -22,7 +22,7 @@ class Register extends React.Component {
   onSubmitRegister = (e) => {
     e.preventDefault();
     if (this.state.email.trim() !== '' && this.state.password.trim() !== '') {
-      fetch('http://localhost:777/register', {
+      fetch('https://blooming-mountain-52947.herokuapp.com/register', {
         method: 'POST',
         headers: { 'Content-type': 'application/json; charset=UTF-8', },
         body: JSON.stringify({
