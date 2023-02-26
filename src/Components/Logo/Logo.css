@@ -1,0 +1,31 @@
+.Tilt {
+
+}
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.br-100 {
+    border-radius: 100%;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.h3 {
+    height: 4rem;
+}
+
+.w3 {
+    width: 4rem;
+}
+
+.pa4 {
+    padding: 2rem;
+}
+
+.tc {
+    text-align: center;
+}
