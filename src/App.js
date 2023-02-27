@@ -58,7 +58,7 @@ class App extends Component {
     e.preventDefault();
     fetch('https://blooming-mountain-52947.herokuapp.com/image', {
       method: 'PUT',
-      headers: { 'Content-type': 'application/json; charset=UTF-8', },
+      headers: { 'Content-type': 'application/json', },
       body: JSON.stringify({
         id: this.state.user.id
       })
