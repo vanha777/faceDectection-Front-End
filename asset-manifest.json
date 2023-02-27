@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/faceDectection-Front-End/static/css/main.7fe5f084.css",
+    "main.js": "/faceDectection-Front-End/static/js/main.90627f59.js",
+    "index.html": "/faceDectection-Front-End/index.html",
+    "main.7fe5f084.css.map": "/faceDectection-Front-End/static/css/main.7fe5f084.css.map",
+    "main.90627f59.js.map": "/faceDectection-Front-End/static/js/main.90627f59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fe5f084.css",
+    "static/js/main.90627f59.js"
+  ]
+}
